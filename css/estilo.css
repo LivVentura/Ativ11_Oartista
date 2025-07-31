@@ -63,11 +63,15 @@ h1, h2 {
 footer {
   background-color: #333;
   color: #ddd;
+  flex-direction: row;
+  align-items:center;
+  height: 70px;
+  margin: 0 auto;
 }
 
 #logo{
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   align-items:center;
 }
 
@@ -89,7 +93,6 @@ figure{
 #principal{
   width: 1000px;
   height: 700px;
-  /* margin: 0 auto; */
 
 }
 #sec_ctd{
@@ -109,9 +112,47 @@ figure{
 h1 {
   text-align: right;
   font-size: 40px;
-  margin-top: -200px;
+  margin-top: -180px;
   margin-bottom: 40px;
 }
+
+#second{
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+#second img{
+  display:flex;
+  width: 250px;
+}
+
+#social {
+  display:flex;
+  flex-direction: row;
+}
+#social img{
+  width: 30px;
+  justify-content: space-between;
+}
+#email a{
+  color:#fff;
+}
+
+#descricao{
+  margin: solid black 1px;
+}
+
+#acesso a{
+  font-family:'Anton', sans-serif;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 4px 10px;
+  box-shadow: #555;
+  text-align: center;
+}
+
+
 
 
 
