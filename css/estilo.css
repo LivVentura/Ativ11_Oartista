@@ -65,8 +65,10 @@ footer {
   color: #ddd;
   flex-direction: row;
   align-items:center;
-  height: 70px;
-  margin: 0 auto;
+  justify-content: space-between;
+  height: 40px;
+  padding: 10px 20px
+  
 }
 
 #logo{
@@ -90,6 +92,7 @@ figure{
   width: 500px;
   height: 500px;
 }
+
 #principal{
   width: 1000px;
   height: 700px;
@@ -128,28 +131,68 @@ h1 {
 }
 
 #social {
-  display:flex;
-  flex-direction: row;
+  padding-left: 20px;
 }
+
+#contato{
+  padding-left: 20px;
+}
+
 #social img{
   width: 30px;
-  justify-content: space-between;
+  margin-left: 10px;
 }
+
 #email a{
   color:#fff;
 }
 
 #descricao{
-  margin: solid black 1px;
+  border: none;
+  box-shadow: 0 0 2px rgb(0,0,0,0.15);
+  width: 500px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color:#fff;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+#descricao iframe{
+  border: 2px solid black;
+  padding: 1px;
+  background-color: white;
+  width: 450px;
+  height: 300px;
+}
+
+#acesso {
+  padding: 35px 65px;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Amatic SC';
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgb(48, 44, 44); 
 }
 
 #acesso a{
-  font-family:'Anton', sans-serif;
+  color: white;
   text-decoration: none;
-  border-radius: 8px;
-  padding: 4px 10px;
-  box-shadow: #555;
-  text-align: center;
+  margin: 6px 0;
+}
+
+#acesso img{
+  width: 30px;  
+}
+
+.m{
+  display:flex;
+  align-items: center;
+  gap: 20px;
 }
 
 
